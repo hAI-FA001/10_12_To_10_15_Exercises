@@ -18,11 +18,11 @@ public class PayableInterfaceTest {
                 new Date(1, 12, 2002)
         );
         payableObjects[3] = new HourlyEmployee(
-                "Lisa", "Barnes", "888-88-8888", 12.00, 54,
+                "Lisa", "Barnes", "888-88-8888", 12.00, 40,
                 new Date(11, 21, 1999)
         );
         payableObjects[4] = new CommissionEmployee(
-                "Walter", "White", "999-99-9999", 130, .75,
+                "Walter", "White", "999-99-9999", 100, .5,
                 new Date(11, 15, 1995)
         );
 
